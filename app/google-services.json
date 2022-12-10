@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596796680948",
+    "project_id": "rbenterprise-76cff",
+    "storage_bucket": "rbenterprise-76cff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596796680948:android:0fc64095d4ae24f9688ca1",
+        "android_client_info": {
+          "package_name": "com.rb.enterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596796680948-qa14626n4kef4d9lc7jaso0u9kutjp2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5MzogGjKToIW0ESLfOpGHehqBC9SKvOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596796680948-qa14626n4kef4d9lc7jaso0u9kutjp2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

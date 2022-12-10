@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reward_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/custom_input_advance"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/description_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/description" />
+
+    <TextView
+        android:id="@+id/description_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/icon"
+        app:layout_constraintStart_toEndOf="@+id/icon"
+        app:layout_constraintTop_toTopOf="@+id/icon" />
+
+    <TextView
+        android:id="@+id/description_body_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/didact_gothic"
+        android:text="Joshimath Rajma known as Himalayan Rajma.Joshimath Rajma is grown at a height of 6150 feet in the beautiful Himalayan city of Joshimath! Absolutely natural, free from harmful chemicals, pesticides and GMOs!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_title" />
+
+    <TextView
+        android:id="@+id/description_body_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/description_body_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/didact_gothic"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:text="Joshimath Rajma is one of the premium varieties of Rajma grown in Uttarakhand."
+        />
+
+    <TextView
+        android:id="@+id/description_body_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/description_body_2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/didact_gothic"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:text="These are grown at an altitude of 6000 feet near Badrinath, in the region called Joshimath."
+        />
+
+    <TextView
+        android:id="@+id/description_body_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/description_body_3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/didact_gothic"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:text="The farmers use traditional methods of cultivation of crop, without any chemicals or pesticides, with pure and pristine Himalayan glacier water making it richer in protein, vitamins, minerals, fiber, antioxidants and tastier than other varieties available. "
+        />
+
+    <TextView
+        android:id="@+id/description_body_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/description_body_4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/didact_gothic"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:text="This variety has a lovely aroma, If you are a Rajma lover, then there is nothing better than Joshimath Rajma."
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
